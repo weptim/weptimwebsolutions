@@ -157,6 +157,13 @@
 		padding: 6em 0;
 		background: #eee;
 	}
+	.contact-flex {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		align-content: center;
+	}
 	.contact-info {
 		display: grid;
 		grid-template-columns: 2fr 4fr;

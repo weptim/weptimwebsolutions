@@ -45,6 +45,17 @@
 		transition: background 1s;
 
 	}
+	.btn-secondary {
+		border: none;
+		text-align: center;
+		text-transform: uppercase;
+		color: #f4f4f4;
+		background: #333;
+		display: inline-block;
+		padding: 1em 0;
+		cursor: pointer;
+		border-radius: 5px;
+	}
 	.btn-primary:hover {
 		background: #f4f4f4;
 		border: none;
@@ -94,6 +105,12 @@
 	#contact {
 		background: #eee;
 	}
+	.contact-flex {
+		text-align: center;
+	}
+	.contact-flex p{
+		padding: 0.5em 0;
+	}
 	input {
 		width: 100%;
 		margin: 1em 0;
@@ -122,6 +139,7 @@
 		display: inline-block;
 		padding: 1em 0;
 		cursor: pointer;
+		border-radius: 5px;
 	}
 	input:focus {
 		outline: none;
