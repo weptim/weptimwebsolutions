@@ -70,6 +70,9 @@
 	.desc {
 		text-align: center;
 	}
+	.title {
+		padding: 1.5em 0;
+	}
 	/* navbar */
 	#navbar {
 		position: fixed;
@@ -125,13 +128,13 @@
 	}
 	/* about */
 	#about {
-		padding: 5em 0;
+		padding: 6em 0;
 		background: #f4f4f4;
 	}
 
 	/* services */
 	#services {
-		padding: 5em 0;
+		padding: 6em 0;
 		background: #eee;
 	}
 	.services-content {
@@ -141,7 +144,7 @@
 	}
 	/* projects */
 	#projects {
-		padding: 5em 0;
+		padding: 6em 0;
 		background: #f4f4f4;
 	}
 	#projects .grid-three {
@@ -151,33 +154,14 @@
 	}
 	/* contact */
 	#contact {
-		padding: 5em 0;
+		padding: 6em 0;
 		background: #eee;
 	}
 	.contact-info {
 		display: grid;
 		grid-template-columns: 2fr 4fr;
 	}
-	input {
-		width: 100%;
-		padding: 1em;
-		background: transparent;
-		border:1.5px solid #ccc;
-		border-radius: 5px;
-		color: #eee;
-	}
-	textarea {
-		width: 100%;
-		padding: 5em 1em;
-		margin: 1em 0;
-		background: transparent;
-		border:1.5px solid #ccc;
-		border-radius: 5px;
-		color: #eee;
-	}
-	input[type="submit"]{
-		cursor: pointer;
-	}
+
 	.input-grid {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
@@ -185,7 +169,7 @@
 	}
 	/* blog content */
 	#blog-content {
-		padding: 5em 0;
+		padding: 6em 0;
 	}
 	.container-fluid {
 		width: 60%;
@@ -199,7 +183,7 @@
 	}
 	/* blog */
 	#blog {
-		padding: 5em 0;
+		padding: 6em 0;
 		background: #f4f4f4;
 	}
 	.grid-four {
@@ -210,7 +194,7 @@
 	/* footer */
 	#main-footer {
 		background: #333;
-		padding-top: 5em;
+		padding-top: 6em;
 		text-align: center;
 		color: #f4f4f4;
 	}

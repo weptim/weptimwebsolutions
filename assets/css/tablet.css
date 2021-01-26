@@ -1,10 +1,12 @@
 /* tablet */
 @media (min-width: 481px) and (max-width: 720px) {
-.container {
+	.container {
 		width: 85%;
 		margin: auto;
 	}
-
+	.title {
+		padding: 1.5em 0;
+	}
 	
 	/* navbar */
 	#navbar {

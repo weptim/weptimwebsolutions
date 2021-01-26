@@ -8,7 +8,9 @@
 	#blog-main{
 		padding: 4em 0;
 	}
-	
+	.title {
+		padding: 1em 0;
+	}
 	/* navbar */
 	#navbar {
 		text-align: center;
@@ -35,28 +37,28 @@
 	}
 	#showcase h1 {
 		text-transform: uppercase;
-		font-size: 1.25em;
+		font-size: 1.5em;
 	}
 	#showcase h3 {
-		font-size: 1em;
+		font-size: 1.25em;
 	}
 	#showcase .btn {
 		display: none;
 	}
 	/* about */
 	#about {
-		padding: 2.5em 0;
+		padding: 3em 0;
 		background: #f4f4f4;
 	}
 
 	/* services */
 	#services {
-		padding: 2.5em 0;
+		padding: 3em 0;
 		background: #eee;
 	}
 	/* projects */
 	#projects {
-		padding: 2.5em 0;
+		padding: 3em 0;
 		background: #f4f4f4;
 	}
 	#projects .grid-three {
@@ -66,7 +68,7 @@
 	}
 	/* contact */
 	#contact {
-		padding: 2.5em 0;
+		padding: 3em 0;
 	}
 	.contact-info {
 		display: grid;
@@ -75,7 +77,7 @@
 	
 	/* blog content */
 	#blog-content {
-		padding: 2.5em 0;
+		padding: 3em 0;
 	}
 	.container-fluid {
 		width: 85%;
@@ -89,7 +91,7 @@
 	}
 	/* blog */
 	#blog {
-		padding: 2.5em 0;
+		padding: 3em 0;
 		background: #f4f4f4;
 	}
 	.grid-four {
@@ -100,7 +102,7 @@
 	/* footer */
 	#main-footer {
 		background: #333;
-		padding-top: 2.5em;
+		padding-top: 3em;
 		text-align: center;
 		color: #f4f4f4;
 	}

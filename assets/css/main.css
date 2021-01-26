@@ -22,6 +22,11 @@
 	ul {
 		list-style-type: none;
 	}
+	.title {
+		font-style: italic;
+		text-align: center;
+		text-transform: uppercase;
+	}
 	img {
 		width: 100%;
 		height: auto;
@@ -52,15 +57,16 @@
 	.desc {
 		text-align: center;
 	}
+	.grid-two {
+		margin: 1em 0;
+		padding: 1em;
+	}
 	/* navbar */
-	#navbar {
-		position: fixed;
+		#navbar {
 		width: 100%;
 		padding: 1em 0;
 		background: #f4f4f4;
 		border-bottom: 1px solid #eee;
-		color: #000;
-		z-index: 1;
 	}
 	
 	#navbar ul li a{
@@ -90,23 +96,42 @@
 	}
 	input {
 		width: 100%;
+		margin: 1em 0;
 		padding: 1em;
 		background: transparent;
-		border:1.5px solid #ccc;
+		border:1.5px solid #000;
 		border-radius: 5px;
-		color: #eee;
+		color: #000;
 	}
 	textarea {
 		width: 100%;
 		padding: 5em 1em;
 		margin: 1em 0;
 		background: transparent;
-		border:1.5px solid #ccc;
+		border:1.5px solid #000;
 		border-radius: 5px;
-		color: #eee;
+		color: #000;
 	}
-	input[type="submit"]{
+	button {
+		border: none;
+		text-align: center;
+		text-transform: uppercase;
+		color: #f4f4f4;
+		background: #333;
+		width: 100%;
+		display: inline-block;
+		padding: 1em 0;
 		cursor: pointer;
+	}
+	input:focus {
+		outline: none;
+	}
+	textarea:focus {
+		outline: none;
+	}
+	button:hover {
+		background: #111;
+		color: #fff;
 	}
 
 
