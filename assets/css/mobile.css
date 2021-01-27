@@ -9,14 +9,21 @@
 		padding: 4em 0;
 	}
 	.title {
-		padding: 1em 0;
+		padding: 1.5em 0;
 	}
+	
 	/* navbar */
 	#navbar {
 		text-align: center;
 	}
 	#navbar ul {
 		display: none;
+	}
+	.img {
+		text-align: center;
+	}
+	.img img {
+		width: 50%;
 	}
 	
 	/*showcase */

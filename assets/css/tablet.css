@@ -8,6 +8,12 @@
 		padding: 1.5em 0;
 	}
 	
+	.img {
+		text-align: center;
+	}
+	.img img {
+		width: 50%;
+	}
 	/* navbar */
 	#navbar {
 		text-align: center;

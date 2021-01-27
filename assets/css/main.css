@@ -38,6 +38,7 @@
 		width: 100%;
 		height: auto;
 	}
+	
 	.btn {
 		display: inline-block;
 		padding: 0.5em 2em;
@@ -73,7 +74,7 @@
 		border: 2px solid #eb6a4d;
 	}
 	.lead {
-		padding: 0.5em 0;
+		padding: 1em 0;
 	}
 	.desc {
 		text-align: center;
@@ -89,7 +90,13 @@
 		background: #f4f4f4;
 		border-bottom: 1px solid #eee;
 	}
-	
+	.logo {
+		text-transform: uppercase;
+		color: #000;
+	}
+	.logo a {
+		color: #000;
+	}
 	#navbar ul li a{
 		text-transform: uppercase;
 		font-weight: bold;
@@ -190,6 +197,9 @@
 		background: #333;
 		text-align: center;
 		color: #f4f4f4;
+	}
+	.footer-logo {
+		text-transform: capitalize;
 	}
 	#main-footer i {
 		margin: 1em 0;
