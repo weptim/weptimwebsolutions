@@ -1,58 +1,9 @@
 @media (min-width: 721px) {
-* {
-		margin: 0;
-		padding: 0;
-		box-sizing: border-box;
-	}
-	html {
-		scroll-behavior: smooth;
-	}
-	body {
-		font-family: 'Raleway', sans-serif;
-		font-size: 1em;
-		background: transparent;
-		color: #000;
-		overflow-x: hidden;
-		line-height: 1.6;
-
-	}
 	.container {
 		width: 80%;
 		margin: auto;
 	}
-	a {
-		text-decoration: none;
-		font-size: 0.89em;
-	}
-	ul {
-		list-style-type: none;
-	}
-	img {
-		width: 100%;
-		height: auto;
-	}
-	.menu-btn {
-		display: none;
-	}
-	.btn {
-		display: inline-block;
-		padding: 0.5em 2em;
-		margin: 1em 0;
-		text-align: center;
-	}
-	.btn-primary {
-		background: transparent;
-		color: #fff;
-		text-transform: uppercase;
-		border:2px solid #f4f4f4;
-		transition: background 1s;
 
-	}
-	.btn-primary:hover {
-		background: #f4f4f4;
-		border: none;
-		color: #111;
-	}
 	.grid-two {
 		display: grid;
 		grid-template-columns: 1fr 3fr;
@@ -128,13 +79,13 @@
 	}
 	/* about */
 	#about {
-		padding: 6em 0;
+		padding: 5em 0;
 		background: #f4f4f4;
 	}
 
 	/* services */
 	#services {
-		padding: 6em 0;
+		padding: 5em 0;
 		background: #eee;
 	}
 	.services-content {
@@ -144,7 +95,7 @@
 	}
 	/* projects */
 	#projects {
-		padding: 6em 0;
+		padding: 5em 0;
 		background: #f4f4f4;
 	}
 	#projects .grid-three {
@@ -154,7 +105,7 @@
 	}
 	/* contact */
 	#contact {
-		padding: 6em 0;
+		padding: 5em 0;
 		background: #eee;
 	}
 	.contact-flex {
@@ -176,12 +127,9 @@
 	}
 	/* blog content */
 	#blog-content {
-		padding: 6em 0;
+		padding: 5em 0;
 	}
-	.container-fluid {
-		width: 60%;
-		margin: auto;
-	}
+
 	.article {
 		display: grid;
 		grid-template-columns: 1fr 3fr;
@@ -190,7 +138,7 @@
 	}
 	/* blog */
 	#blog {
-		padding: 6em 0;
+		padding: 5em 0;
 		background: #f4f4f4;
 	}
 	.grid-four {
@@ -201,7 +149,7 @@
 	/* footer */
 	#main-footer {
 		background: #333;
-		padding-top: 6em;
+		padding-top: 5em;
 		text-align: center;
 		color: #f4f4f4;
 	}

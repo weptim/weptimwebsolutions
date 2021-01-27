@@ -71,6 +71,11 @@
 		display: grid;
 		grid-template-columns: 100%;
 	}
+	.input-grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 1em;
+	}
 	
 	/* blog content */
 	#blog-content {

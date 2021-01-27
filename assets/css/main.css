@@ -22,10 +22,17 @@
 	ul {
 		list-style-type: none;
 	}
+	i:hover {
+		color: #eb6a4d;
+	}
 	.title {
 		font-style: italic;
 		text-align: center;
+		color: #eb6a4d;
 		text-transform: uppercase;
+	}
+	.span {
+		color: #eb6a4d;
 	}
 	img {
 		width: 100%;
@@ -41,7 +48,7 @@
 		background: transparent;
 		color: #fff;
 		text-transform: uppercase;
-		border:2px solid #f4f4f4;
+		border:2px solid #eb6a4d;;
 		transition: background 1s;
 
 	}
@@ -50,18 +57,21 @@
 		text-align: center;
 		text-transform: uppercase;
 		color: #f4f4f4;
-		background: #333;
+		background:#eb6a4d;;
 		display: inline-block;
-		padding: 1em 0;
 		cursor: pointer;
 		border-radius: 5px;
 	}
 	.btn-primary:hover {
-		background: #f4f4f4;
+		background: #eb6a4d;;
 		border: none;
-		color: #111;
+		color: #f4f4f4;
 	}
-	
+	.btn-secondary:hover {
+		color: #000;
+		background: transparent;
+		border: 2px solid #eb6a4d;
+	}
 	.lead {
 		padding: 0.5em 0;
 	}
@@ -84,6 +94,17 @@
 		text-transform: uppercase;
 		font-weight: bold;
 		color: #000;
+	}
+
+	#navbar ul li a:hover{
+		color: #eb6a4d;
+	}
+	#navbar ul li a:active {
+		color: #eb6a4d;
+	}
+	#navbar i {
+		color: #000;
+		font-size: 1.5em;
 	}
 	
 	/* about */
@@ -111,6 +132,12 @@
 	.contact-flex p{
 		padding: 0.5em 0;
 	}
+	#contact a {
+		color: #000;
+	}
+	#contact i {
+		font-size: 1.5em;
+	}
 	input {
 		width: 100%;
 		margin: 1em 0;
@@ -134,7 +161,7 @@
 		text-align: center;
 		text-transform: uppercase;
 		color: #f4f4f4;
-		background: #333;
+		background: #eb6a4d;
 		width: 100%;
 		display: inline-block;
 		padding: 1em 0;
@@ -148,8 +175,7 @@
 		outline: none;
 	}
 	button:hover {
-		background: #111;
-		color: #fff;
+		opacity: 0.7;
 	}
 
 
@@ -167,6 +193,9 @@
 	}
 	#main-footer i {
 		margin: 1em 0;
+		color: #f4f4f4;
+		font-size: 1.5em;
+		padding: 0 0.5em;
 	}
 	#blog-main {
 	 background: #f4f4f4;
