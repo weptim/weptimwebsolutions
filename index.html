@@ -8,7 +8,8 @@
     <meta name="description" content="Web Design and Web Development In Mbale, effective web design in Mbale City Uganda">
     <meta name="keywords" content="web design, web development, web design in Mbale, web development in Mbale, web design in Mbale City, web development in Mbale City.">
     <!-- fonts -->
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- css -->
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
@@ -57,6 +58,7 @@
   <!-- about -->
   <section id="about">
     <div class="container">
+       <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
       <div class="about-content">
         <div class="about-grid">
           <div class="about-image">
@@ -68,6 +70,7 @@
             <p class="lead">Our main experience is in Web Design and Development.</p>
             <p class="lead">We use HTML, CSS, BootsTrap, Javascript, and PHP to produce responsive websites and web apps that provide users the best and most appriopriate experiences suited to their devices and browsers.</p>
             <p class="lead">We create succesful websites that are fast, easy to use and built with the best practises.</p>
+
           </div>
       </div>
       <!-- why work with us -->
@@ -80,6 +83,7 @@
       </div>
     </div>
   </div>
+</div>
   </section>
   <!-- services -->
   <section id="services">
@@ -87,6 +91,7 @@
       <div class="services-content">
         <h1 class="title">what we can do for you</h1>
         <section>
+          <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
           <h3 class="desc">Web Design</h3>
         <div class="grid-two">
           <div class="img">
@@ -97,8 +102,10 @@
             <p class="lead">Responsive First: A website needs to work on all deviices and it needs to be first as possible.</p>
       </div>
         </div>
+      </div>
       </section>
         <section>
+          <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
           <h3 class="desc">Web Development</h3>
         <div class="grid-two">
           <div class="img">
@@ -109,8 +116,10 @@
             <p class="lead">Buliding a future proof and easy to mainain Website is acheived by breaking down a webpage into it's smallest pieces high level perfomance to maintain a smooth and apealing website.</p>
         </div>
         </div>
+      </div>
       </section>
       <section>
+        <div data-aos="fade-up"data-aos-anchor-placement="center-bottom">
         <h3 class="desc">Web Maintainence</h3>
         <div class="grid-two">
           <div class="img">
@@ -121,6 +130,7 @@
           <p class="lead">There is a series of techniques involved in  making a fast website all of which we have spent time learning. we build these techniques into every site we code and we also offer this as a stand alone for existing websites.</p>
       </div>
         </div>
+      </div>
       </section>
         </div>
       </div>
@@ -132,22 +142,34 @@
       <h1 class="title">projects we have worked on so far</h1>
     <div class="grid-three">
       <div class="project-one">
-        <img src="assets/images/project-one.jpg" alt="project-one">
+        <a href="https://distracted-euclid-170abe.netlify.app" target="_blank">
+         <img src="assets/images/project-one.jpg" alt="project-one">
+       </a>
       </div>
       <div class="project-two">
+        <a href="https://distracted-euclid-170abe.netlify.app" target="_blank">
         <img src="assets/images/project-two.jpg" alt="project-two">
+      </a>
       </div>
       <div class="project-three">
-        <img src="assets/images/project-three.jpeg" alt="project-two">
+        <a href="https://portfolio-site-ug.netlify.app" target="_blank">
+        <img src="assets/images/project-three.jpg" alt="project-two">
+        </a>
       </div>
       <div class="project-four">
-        <img src="assets/images/project-two.jpg" alt="project-two">
+        <a href="https://weptim-blog.netlify.app" target="_blank">
+        <img src="assets/images/project-four.jpg" alt="project-four">
+      </a>
       </div>
       <div class="project-five">
+        <a href="https://hopeful-jones-d15cd3.netlify.app" target="_blank">
         <img src="assets/images/project-five.jpg" alt="project-two">
+      </a>
       </div>
       <div class="project-six">
+        <a href="https://hopeful-jones-d15cd3.netlify.app" target="_blank">
         <img src="assets/images/project-seven.jpg" alt="project-two">
+      </a>
       </div>
     </div>
     </div>
@@ -158,6 +180,7 @@
       <h1 class="title">contact us here</h1>
       <section class="contact-info">
         <div class="contact-flex">
+          <div data-aos="fade-up"data-aos-anchor-placement="top-center">
           <i class="fa fa-envelope"></i>
           <p><a href="mailto:weptimwebsolutions@gmail.com">website@weptim.xyz</a></p>
           <i class="fa fa-phone"></i>
@@ -165,8 +188,10 @@
           <i class='fas fa-sms'></i>
           <p><a href="tel:+256785500801">+256702907958</a></p>
         </div>
+        </div>
         <div>
           <form name="subscribe" method="POST" data-netlify="true">
+            <div data-aos="fade-up" data-aos-anchor-placement="center-center">
           <div class="input-grid">
             <div>
               <input type="text" name="name" placeholder="name" required>
@@ -179,6 +204,7 @@
           
           <textarea placeholder="message" required="message"></textarea>
           <button type="submit"> send message </button>
+        </div>
           </form>
         </div>
       </section>
@@ -209,5 +235,8 @@
       </div>
     </div>
   </footer>
+  <script>
+  AOS.init();
+</script>
 </body>
 </html>
